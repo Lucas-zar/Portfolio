@@ -11,7 +11,7 @@
 }
 
 *{
-    transition: 150ms;
+    transition: 100ms;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -37,6 +37,10 @@
 
 .b-border-orange{
     border-bottom: solid 4px #ff4d06;
+}
+
+.r-border-orange{
+    border-right: solid 4px #ff4d06;
 }
 
 .darkbg{
