@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+.example2 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+*{
+    transition: 150ms;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font{
+    font-family: 'VCR OSD Mono', sans-serif;
+    text-shadow: 4px 2px 0px #000 ;
+}
+
+.font2{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 0px 0px #000 ;
+
+}
+
+.font-color-orange{
+    color: #ff4d06;
+}
+
+.font-color-grey{
+    color: #161616;
+}
+
+.b-border-orange{
+    border-bottom: solid 4px #ff4d06;
+}
+
+.darkbg{
+    background-color: #090909;
+    background-image: url(/assets/paper-texture.png);
+    background-size: cover;
+}
+
+.greybg{
+    background-color: #161616;
+}
+
+.line-height-tittle{
+    line-height: 65px;
+}
