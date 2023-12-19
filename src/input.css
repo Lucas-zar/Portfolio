@@ -31,12 +31,16 @@
     color: #ff4d06;
 }
 
-.font-color-grey{
+.font-color-gray{
     color: #161616;
 }
 
 .b-border-orange{
     border-bottom: solid 4px #ff4d06;
+}
+
+.b-border-gray{
+    border-bottom: solid 4px #161616;
 }
 
 .r-border-orange{
@@ -51,6 +55,6 @@
     background-color: #161616;
 }
 
-.line-height-tittle{
-    line-height: 65px;
+.text-xxs{
+    font-size: 0.50rem;
 }
