@@ -11,13 +11,9 @@
 }
 
 *{
-    transition: 100ms;
+    transition: 200ms;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.img-wrap{
-    shape-outside: square;
 }
 
 .font{
@@ -43,7 +39,6 @@
 .b-border-gray{
     border-bottom: solid 4px #161616;
 }
-
 
 .darkbg{
     background-color: #090909;
