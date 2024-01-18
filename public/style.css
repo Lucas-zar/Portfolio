@@ -1056,6 +1056,20 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1280px) {
   .xl\:mb-10 {
     margin-bottom: 2.5rem;
