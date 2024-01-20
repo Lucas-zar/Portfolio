@@ -18,6 +18,8 @@
     <meta property="twitter:description" content="My online portfolio! Here, you'll find a snapshot of my web development skills and projects. Check out what projects I've created. Plus, get to know a bit more about me." />
     <meta property="twitter:image" content="https://lucas-zar.github.io/Portfolio/assets/portfolio_meta_img.png" />
 
+    <meta name="keywords" content="Web Developer, Tailwind CSS, Front-End Developer, Back-End Developer, Full Stack Developer, UI/UX Designer, Responsive Web Design, JavaScript, HTML5, CSS3, React, Node.js, Mobile-First Development, Cross-Browser Compatibility, SEO Optimization, Portfolio Website, Code Quality, Creative Design, Web Development Projects, User Experience, Web Accessibility, Git/GitHub, Web Design">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -28,9 +30,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
-<body class="darkbg" style="background-image: url(assets/paper-texture.png);">
+<body class="darkbg flex justify-center" style="background-image: url(assets/paper-texture.png);">
 
-<section>
+<section class="max-w-[2569px]">
 
     <article id="#" style="background-image: url(public/FLAG.webp); background-size: contain; background-position: center; background-repeat: no-repeat;" class="p-3 md:p-5 xl:p-10 h-[40vh] md:h-[60vh] xl:h-screen max-h-[1080px] flex flex-col justify-between">
 
@@ -38,7 +40,7 @@
 
             <div class="flex flex-col justify-between gap-10 select-none font">
                 <div>
-                    <h1 class="text-white text-2xl md:text-4xl xl:text-7xl font-semibold">LUCAS<br>ZARATE<br>WEB<br>DEVELOPER</h1>
+                    <h1 class="text-white text-2xl md:text-4xl xl:text-7xl font-semibold flex flex-col">LUCAS<br>ZARATE<br><span class="text-xl md:text-2xl xl:text-3xl">WEB <br class="md:hidden"> DEVELOPER</span></h1>
                     <h2 class="font-color-orange mt-1 text-xs md:text-base xl:text-xl">From Argentina <br class="md:hidden"> at 21 I design <br class="md:block hidden"> and <br class="md:hidden"> code websites.</h2>
                     <h6 class="font-color-gray text-xxs md:text-xs">-52.33329729045777, -68.3541046344951</h6>
                 </div>
@@ -100,6 +102,12 @@
                             <h2>I love artworks, posters, logos, designs, patterns, typographies, color palettes, and whatever that looks cool. On my Twitter, I follow lots of artists; their creations give me ideas for my websites designs. In particular, I like Pixel Art and anime-style artworks. In this genre, I have many favorite artists, but if I had to choose one, my favorite is <a class="hover:bg-black font-semibold" href="https://www.pixiv.net/en/users/1039353/illustrations">Mika Pikazo.</a> I love his extremely colorful style.</h2>
                             <br>
                             <h2>About music, mostly I like EDM / J-Core but everything that sounds good is ok for me, I don't really pay attention to the lyrics, I just like sounds and rhythms.</h2>
+                            <br>
+                            <div class="lg:hidden grid grid-cols-3 place-content-center h-fit rounded gap-3 md:gap-5">
+                                <img class="select-none" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
+                                <img class="select-none" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
+                                <img class="select-none" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
+                            </div>
                         </div>
                     </details>
                 </div>
@@ -130,11 +138,11 @@
 
             <div class="bg-black h-12/12 w-0.5 hidden md:block"></div>
 
-            <div class="flex flex-col justify-center items-center h-fit rounded lg:w-4/12 gap-3 md:gap-5 xl:gap-10">
-                <img class="object-contain aspect-square select-none" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
+            <div class="hidden lg:flex flex-col justify-center items-center h-fit rounded lg:w-4/12 gap-3 md:gap-5 xl:gap-10">
+                <img class="object-contain aspect-square select-none max-h-[600px]" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
                 <div id="imgs" class="flex flex-col justify-center items-center rounded gap-3 md:gap-5 xl:gap-10 hidden animate-fade-up">
-                    <img class="object-contain aspect-square select-none" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
-                    <img class="object-contain aspect-square select-none" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
+                    <img class="object-contain aspect-square select-none max-h-[600px]" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
+                    <img class="object-contain aspect-square select-none max-h-[600px]" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
                 </div>
             </div>
         </div>
@@ -238,13 +246,13 @@
             <form action="https://formspree.io/f/xayrypvk" method="POST" class="bg-black p-1 md:p-3 rounded self-start font2 flex flex-col gap-2 md:gap-3 xl:gap-5 w-full md:w-6/12 text-xs md:text-sm xl:text-xl">
                 <span class="flex justify-between font">
                     <h2 class="text-white text-xs md:text-sm xl:text-xl flex gap-3 items-center select-none">Send me an Email
-                        <img class="h-5 md:h-8 xl:h-7" src="public/arrow-to-down-left-svgrepo-com.svg" alt="">
+                        <img class="h-5 xl:h-7" src="public/arrow-to-down-left-svgrepo-com.svg" alt="">
                     </h2>
                     <h6 class="font-color-gray text-xxs">Don't be shy.</h6>
                 </span>
                 <input type="email" name="email" placeholder="YourName@email.com" required class="text-black font1 p-1 md:p-2 rounded">
                 <textarea name="message" placeholder="Your message" autocomplete="off" class="text-black font1 p-1 md:p-2 rounded resize-none md:h-[200px]"></textarea>
-                <button class="greybg p-1 md:p-2 text-white hover:text-white rounded hover:bg-black hover:border hover:border-white border border-transparent flex justify-between" type="submit"><span class="font-color-gray">></span> Send <span class="font-color-gray"><</span></button>
+                <button class="darkbg p-1 md:p-2 text-white hover:text-white rounded hover:bg-black hover:border hover:border-white border border-transparent flex justify-center" type="submit">Send</button>
             </form>
         </div>
     </article>
