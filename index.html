@@ -40,26 +40,26 @@
 
             <div class="flex flex-col justify-between gap-10 select-none font">
                 <div>
-                    <h1 class="text-white text-2xl md:text-4xl xl:text-7xl font-semibold flex flex-col">LUCAS<br>ZARATE<br><span class="text-xl md:text-2xl xl:text-3xl">WEB <br class="md:hidden"> DEVELOPER</span></h1>
-                    <h2 class="font-color-orange mt-1 text-xs md:text-base xl:text-xl">From Argentina <br class="md:hidden"> at 21 I design <br class="md:block hidden"> and <br class="md:hidden"> code websites.</h2>
+                    <h1 class="text-white text-3xl md:text-4xl xl:text-7xl font-semibold flex flex-col">LUCAS<br>ZARATE<br><span id="tittle2" class="text-base md:text-2xl xl:text-3xl">WEB DEVELOPER</span></h1>
+                    <h2 id="tittle" class="font-color-orange mt-1 text-xs md:text-base xl:text-xl">From Argentina <br class="md:hidden"> at 21 I design <br class="md:block hidden"> and <br class="md:hidden"> code websites.</h2>
                     <h6 class="font-color-gray text-xxs md:text-xs">-52.33329729045777, -68.3541046344951</h6>
                 </div>
                 <div class="text-white font text-sm md:text-lg xl:text-3xl flex gap-1 md:gap-3 whitespace-nowrap">
-                    <a href="#ABOUT"><button class="b-border-orange hover:scale-105">ABOUT</button></a>
-                    <a href="#PROJECTS"><button class="b-border-orange hover:scale-105">PROJECTS</button></a>
-                    <a href="#CONTACTS"><button class="b-border-orange hover:scale-105">CONTACT</button></a>
+                    <a href="#ABOUT"><button id="navbar1" class="b-border-orange hover:scale-105">ABOUT</button></a>
+                    <a href="#PROJECTS"><button id="navbar2" class="b-border-orange hover:scale-105">PROJECTS</button></a>
+                    <a href="#CONTACTS"><button id="navbar3" class="b-border-orange hover:scale-105">CONTACT</button></a>
                 </div>
             </div>
             <div class="flex flex-col gap-3 items-end justify-between font">
                 <div>
-                    <h2 class="font text-xs md:text-base xl:text-lg text-white text-right">VER 4.0<br>2023 / 2024</h2>
-                    <h2 class="text-xxs md:text-sm font-color-orange text-right">Looking for work.</h2>
+                    <h2 class="font text-xs md:text-base xl:text-lg text-white text-right">@ VER 4.1<br>21/01/2024</h2>
+                    <h2 id="tittle3" class="text-xxs md:text-sm font-color-orange text-right">Looking for work.</h2>
                     <h6 class="text-right md:text-xs hidden md:block font-color-gray">↗14↗↗↗06↗↗↗02↗</h6>
                 </div>
 
                 <div class="flex gap-1 self-end text-xs md:text-sm">
-                    <a class="font text-white b-border-orange hover:scale-110" href=""><h2>EN</h2></a>
-                    <a class="font text-white b-border-gray hover:scale-110" href=""><h2>ES</h2></a>
+                    <button id="englishBtn" class="font text-white b-border-orange hover:scale-110" href="#"><h2>EN</h2></button>
+                    <button id="spanishBtn" class="font text-white b-border-gray hover:scale-110" href="#"><h2>ES</h2></button>
                 </div>
             </div>
     </article>
@@ -71,37 +71,39 @@
             <div class="text-white font text-xs md:text-sm xl:text-xl lg:w-8/12 flex flex-col justify-between gap-3 md:gap-5 xl:gap-10">
                 <div>
                     <div class="font text-white text-sm md:text-lg xl:text-3xl w-fit mb-3 md:mb-5 xl:mb-10 flex items-center gap-1 md:gap-3">
-                        <span class="b-border-orange select-none">ABOUT</span>
+                        <span id="aboutbtn" class="b-border-orange select-none">ABOUT</span>
                         <img class="h-5 md:h-8 xl:h-10" src="public/star-shine-svgrepo-com.svg" alt="">
                     </div>
                     <div>
-                        <h2>Hellooo! I am a Front - End Development Trainee based in Argentina with a solid foundation in both tech and design.</h2>
+                        <h2 id="about1">Hellooo! I am a Front - End Developer based in Argentina with a solid foundation in both tech and design.</h2>
                         <br>
-                        <h2>I enjoy creating good-looking websites and also making custom multimedia content for them, such as logos, images, backgrounds, posters or custom videos.</h2>
+                        <h2 id="about2">I enjoy creating good-looking websites and also making custom multimedia content for them, such as logos, images, backgrounds, posters or custom videos.</h2>
                         <br>
-                        <h2>Currently I am focusing my efforts to mastering Front-End technologies and design concepts with the goal of achieving a professional level to then learn backend development.</h2>
+                        <h2 id="about3">Currently I am focusing my efforts to mastering Front-End technologies and design concepts with the goal of achieving a professional level to then learn backend development.</h2>
                         <br>
-                        <h2>Regarding my education and experience, I've completed around 90 hours of online Udemy courses on Front and Back End development. I consider my experience decent, and I believe it is close to a professional level. However, I haven't gained any formal work experience yet.</h2>
+                        <h2 id="about4">Regarding my education and experience, I've completed around 90 hours of online Udemy courses on Front and Back End development. I consider my experience decent, and I believe it is close to a professional level. However, I haven't gained any formal work experience yet.</h2>
                         <br>
                     </div>
                     <details>
-                        <summary class="hover:translate-x-1 w-fit" id="info"><span class="b-border-orange cursor-pointer select-none ">More info</span></summary>
+                        <summary class="hover:translate-x-1 w-fit" id="info">
+                            <span id="moreinfobtn" class="b-border-orange cursor-pointer select-none ">More info</span>
+                        </summary>
                         <br>
                         <div id="info_content" class="">
                             <img class="float-left w-4/12 xl:w-3/12 md:p-4 md:max-w-[400px] select-none" src="public/alonso.png" style="background-image: url(public/pattern.svg);" alt="">
                             <img class="float-right w-3/12 xl:w-4/12 xl:p-5 md:max-w-[400px] select-none" src="public/f1.png" style="background-image: url(public/pattern.svg);" alt="">
-                            <h2>About my personality, hobbies and likings I'm a friendly guy that loves video games, artworks, tech stuff and motorsports, specially F1, category that I been watching closely since 2012 when I was 10 and found the sight of colorful cars speeding around circles highly entertaining.</h2>
+                            <h2 id="about5">About my personality, hobbies and likings I'm a friendly guy that loves video games, artworks, tech stuff and motorsports, specially F1, category that I been watching closely since 2012 when I was 10 and found the sight of colorful cars speeding around circles highly entertaining.</h2>
                             <br>
-                            <h2>I admire the F1 drivers for their histories of greatness and hard-fought wins against the best of the best drivers, engineers and manufacturers on the world.</h2>
+                            <h2 id="about6">I admire the F1 drivers for their histories of greatness and hard-fought wins against the best of the best drivers, engineers and manufacturers on the world.</h2>
                             <br>
-                            <h2>When I'm not watching races, I might be playing some video games. I enjoy shooter games like PUBG, Battlefield, Apex Legends, or CSGO.  </h2>
+                            <h2 id="about7">When I'm not watching races, I might be playing some video games. I enjoy shooter games like PUBG, Battlefield, Apex Legends, or CSGO.</h2>
                             <br>
                             <img class="float-right w-4/12 xl:w-3/12 p-1 md:max-w-[400px] select-none" src="public/csgo.png" style="background-image: url(public/pattern.svg);" alt="">
-                            <h2>Gaming is something I really enjoy, and I'm interested into game development, but at the moment, it is not my priority. However, in the future, I'm sure I will try to make a game.</h2>
+                            <h2 id="about8">Gaming is something I really enjoy, and I'm interested into game development, but at the moment, it is not my priority. However, in the future, I'm sure I will try to make a game.</h2>
                             <br>
-                            <h2>I love artworks, posters, logos, designs, patterns, typographies, color palettes, and whatever that looks cool. On my Twitter, I follow lots of artists; their creations give me ideas for my websites designs. In particular, I like Pixel Art and anime-style artworks. In this genre, I have many favorite artists, but if I had to choose one, my favorite is <a class="hover:bg-black font-semibold" href="https://www.pixiv.net/en/users/1039353/illustrations">Mika Pikazo.</a> I love his extremely colorful style.</h2>
+                            <h2 id="about9">I love artworks, posters, logos, designs, patterns, typographies, color palettes, and whatever that looks cool. On my Twitter, I follow lots of artists; their creations give me ideas for my websites designs. In particular, I like Pixel Art and anime-style artworks. In this genre, I have many favorite artists, but if I had to choose one, my favorite is <a class="hover:bg-black font-semibold" href="https://www.pixiv.net/en/users/1039353/illustrations">Mika Pikazo.</a> I love his extremely colorful style.</h2>
                             <br>
-                            <h2>About music, mostly I like EDM / J-Core but everything that sounds good is ok for me, I don't really pay attention to the lyrics, I just like sounds and rhythms.</h2>
+                            <h2 id="about10">About music, mostly I like EDM / J-Core but everything that sounds good is ok for me, I don't really pay attention to the lyrics, I just like sounds and rhythms.</h2>
                             <br>
                             <div class="lg:hidden grid grid-cols-3 place-content-center h-fit rounded gap-3 md:gap-5">
                                 <img class="select-none" src="public/test.png" alt="" style="background-image: url(public/pattern.svg);">
@@ -114,7 +116,7 @@
                 <div class="flex flex-col md:items-end md:flex-row justify-between gap-3 md:gap-5 xl:gap-10">
                     <div class="w-fit">
                         <h2 class="whitespace-nowrap text-white font text-xs md:text-sm xl:text-xl flex gap-3 items-center w-fit">
-                            This is my current Tech stack :
+                            <span id="stack">This is my current Tech stack :</span>
                             <img class="h-5 md:h-8 xl:h-7" src="public/arrow-to-down-left-svgrepo-com.svg" alt="">
                         </h2>
                         <br>
@@ -153,7 +155,7 @@
     <article id="PROJECTS" class="p-3 md:p-5 xl:p-10">
         <div>
             <div class="font text-white text-sm md:text-lg xl:text-3xl w-fit mb-3 md:mb-5 xl:mb-10 flex items-center gap-1 md:gap-3">
-                <span class="b-border-orange select-none">PROJECTS</span>
+                <span id="projectsbtn" class="b-border-orange select-none">PROJECTS</span>
                 <img class="h-4 md:h-7 xl:h-8" src="public/folder-1792-svgrepo-com.svg" alt="">
             </div>
         </div>
@@ -166,7 +168,7 @@
                 </div>
                 <div class="2xl:w-4/12 font text-white text-xs md:text-sm xl:text-xl">
                     <div class="flex gap-3 xl:gap-5">
-                        <h1 class="text-white text-sm md:text-base xl:text-2xl b-border-orange w-fit whitespace-nowrap">
+                        <h1 id="atmtittle" class="text-white text-sm md:text-base xl:text-2xl b-border-orange w-fit whitespace-nowrap">
                             Aston Martin Clone
                         </h1>
                         <div class="flex gap-3 items-center xl:hidden">
@@ -177,22 +179,19 @@
                     </div>
                     <div>
                         <br>
-                        <h2>A Near-perfect replica of the official website of the luxurious sport cars brand Aston Martin.</h2>
+                        <h2 id="atm1">A Near-perfect replica of the official website of the luxurious sport cars brand Aston Martin.</h2>
                         <br>
-                        <h2>
-                            Site was made using pure Tailwind, this CSS framework had every class I needed to achieve an authentic representation of the original site's design and menus.
-                            <br>
-                            <br>
-                            Site also has vanilla Javascript to add functionality to menus, video carousel and video progress bar.
-                        </h2>
+                        <h2 id="atm2">Site was made using pure Tailwind, this CSS framework had every class I needed to achieve an authentic representation of the original site's design and menus.</h2>
+                        <br>
+                        <h2 id="atm3">Site also has vanilla Javascript to add functionality to menus, video carousel and video progress bar.</h2>
                         <br>
                         <a class="w-fit flex gap-1 md:gap-2 xl:gap-3 items-center hover:translate-x-1" target="_blank" href="https://github.com/Lucas-zar/AstonMartinClone">
-                            <h2 class="b-border-orange w-fit">Check repository</h2>
+                            <h2 id="atm4" class="b-border-orange w-fit">Check repository</h2>
                             <img class="h-4 md:h-5 xl:h-7" src="public/external-link-svgrepo-com.svg" alt="">
                         </a>
                         <br>
                         <a class="w-fit flex gap-1 md:gap-2 xl:gap-3 items-center hover:translate-x-1" target="_blank" href="https://lucas-zar.github.io/AstonMartinClone/">
-                            <h2 class="b-border-orange w-fit">Check live site</h2>
+                            <h2 id="atm5" class="b-border-orange w-fit">Check live site</h2>
                             <img class="h-4 md:h-5 xl:h-7" src="public/external-link-svgrepo-com.svg" alt="">
                         </a>
                         <br>
@@ -214,18 +213,18 @@
             <div class="flex flex-col md:w-6/12 text-white text-xs md:text-sm xl:text-xl">
                 <div>
                     <h1 class="font text-white text-sm md:text-lg xl:text-3xl w-fit mb-3 md:mb-5 xl:mb-10 flex items-center gap-1 md:gap-3">
-                        <span class="b-border-orange select-none">CONTACT</span>
+                        <span id="contactbtn" class="b-border-orange select-none">CONTACT</span>
                         <img class="h-4 md:h-6 xl:h-9" src="public/message-closed-envelope-svgrepo-com.svg" alt="">
                     </h1>
                 </div>
                 <div>
-                    <h2>Whether you have a project in mind, want to collaborate, or just want to say Hi, feel free to reach out. </h2>
+                    <h2 id="contact1">Whether you have a project in mind, want to collaborate, or just want to say Hi, feel free to reach out.</h2>
                     <br>
-                    <h2>Your message is important to me, and I'll do my best to respond promptly.</h2>
+                    <h2 id="contact2">Your message is important to me, and I'll do my best to respond promptly.</h2>
                     <br>
-                    <h2>I'm open to job opportunities. Feel free to reach out if interested.<h2>
+                    <h2 id="contact3">I'm open to job opportunities. Feel free to reach out if interested.<h2>
                     <br>
-                    <h2 class="w-fit b-border-orange">Thank you for visiting my portfolio!.<h2>
+                    <h2 id="contact4" class="w-fit b-border-orange">Thank you for visiting my portfolio!.<h2>
                     <br>
                 </div>
                 <div class="flex gap-2 xl:gap-6">
@@ -244,15 +243,16 @@
             <div class="bg-black h-12/12 w-0.5 hidden md:block"></div>
 
             <form action="https://formspree.io/f/xayrypvk" method="POST" class="bg-black p-1 md:p-3 rounded self-start font2 flex flex-col gap-2 md:gap-3 xl:gap-5 w-full md:w-6/12 text-xs md:text-sm xl:text-xl">
-                <span class="flex justify-between font">
-                    <h2 class="text-white text-xs md:text-sm xl:text-xl flex gap-3 items-center select-none">Send me an Email
+                <div class="flex justify-between font">
+                    <div class="text-white text-xs md:text-sm xl:text-xl flex gap-3 items-center select-none">
+                        <h2 id="contactf1">Send me an Email</h2>
                         <img class="h-5 xl:h-7" src="public/arrow-to-down-left-svgrepo-com.svg" alt="">
-                    </h2>
+                    </div>
                     <h6 class="font-color-gray text-xxs">Don't be shy.</h6>
-                </span>
-                <input type="email" name="email" placeholder="YourName@email.com" required class="text-black font1 p-1 md:p-2 rounded">
-                <textarea name="message" placeholder="Your message" autocomplete="off" class="text-black font1 p-1 md:p-2 rounded resize-none md:h-[200px]"></textarea>
-                <button class="darkbg p-1 md:p-2 text-white hover:text-white rounded hover:bg-black hover:border hover:border-white border border-transparent flex justify-center" type="submit">Send</button>
+                </div>
+                <input id="contactf2" type="email" name="email" placeholder="YourName@email.com" required class="text-black font1 p-1 md:p-2 rounded">
+                <textarea id="contactf3" name="message" placeholder="Your message" autocomplete="off" class="text-black font1 p-1 md:p-2 rounded resize-none md:h-[200px]"></textarea>
+                <button id="contactfbtn" class="darkbg p-1 md:p-2 text-white hover:text-white rounded hover:bg-black hover:border hover:border-white border border-transparent flex justify-center" type="submit">Send</button>
             </form>
         </div>
     </article>
