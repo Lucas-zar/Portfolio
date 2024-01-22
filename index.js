@@ -6,7 +6,6 @@ Info.onclick = function(){
     Info_content.classList.toggle("animate-fade-down");
 };
 
-
 const translations = {
     english: {
         tittle:`From Argentina <br class="md:hidden"> at 21 I design <br class="md:block hidden"> and <br class="md:hidden"> code websites.`,
