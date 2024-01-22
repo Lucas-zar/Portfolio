@@ -6,6 +6,7 @@ Info.onclick = function(){
     Info_content.classList.toggle("animate-fade-down");
 };
 
+
 const translations = {
     english: {
         tittle:`From Argentina <br class="md:hidden"> at 21 I design <br class="md:block hidden"> and <br class="md:hidden"> code websites.`,
@@ -135,19 +136,26 @@ function changeLanguage(language) {
 };
 
   document.getElementById("englishBtn").addEventListener("click", function () {
-    changeLanguage("english");
+      changeLanguage("english");
+      document.documentElement.lang="en";
     this.classList.add("b-border-orange");
     this.classList.remove("b-border-gray")
+    this.classList.add("scale-110")
     document.getElementById("spanishBtn").classList.remove("b-border-orange")
     document.getElementById("spanishBtn").classList.add("b-border-gray")
+    document.getElementById("spanishBtn").classList.remove("scale-110")
 
   });
 
   document.getElementById("spanishBtn").addEventListener("click", function () {
     changeLanguage("spanish");
+    document.documentElement.lang="es";
     this.classList.add("b-border-orange");
     this.classList.remove("b-border-gray")
+    this.classList.add("scale-110")
     document.getElementById("englishBtn").classList.remove("b-border-orange")
     document.getElementById("englishBtn").classList.add("b-border-gray")
+    document.getElementById("englishBtn").classList.remove("scale-110")
+
   });
 
